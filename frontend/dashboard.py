@@ -2,7 +2,12 @@
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 import numpy as np
 import pandas as pd
@@ -18,7 +23,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = ROOT_DIR
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 MODEL_RESULTS_DIR = PROCESSED_DIR / "model_results"
 EXPLAINABILITY_DIR = PROCESSED_DIR / "explainability"

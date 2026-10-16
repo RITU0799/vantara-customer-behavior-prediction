@@ -1,0 +1,4 @@
+Risk_Type,Customer_ID,Churn_Probability
+low_risk,17460.0,0.14943969060371745
+borderline,13362.0,0.500258802074136
+high_risk,17202.0,0.8500013967727437

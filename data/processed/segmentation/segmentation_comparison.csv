@@ -1,0 +1,3 @@
+Method,Clusters,Silhouette,Davies_Bouldin
+K-Means,5,0.22243,2.707187
+GMM,2,0.705191,4.898837

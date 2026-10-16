@@ -1,0 +1,7 @@
+{
+  "method": "platt_scaling",
+  "input": "random_forest.pkl probability",
+  "validation_rows": 792,
+  "slope": 1.1218343558710167,
+  "intercept": 0.21261223180761474
+}

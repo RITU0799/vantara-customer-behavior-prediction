@@ -1,0 +1,56 @@
+﻿# Secrets and local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-temp/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+tmp/
+
+# Git and editor files
+.git/
+.vscode/
+
+# Raw and intermediate datasets (large files; keep locally)
+data/raw/
+data/interim/
+
+# Training-only data and experiments
+data/processed/model_data/
+data/processed/clv_regression/
+data/processed/lstm_data/
+
+# Exclude generated training artifacts, but retain runtime dashboard assets
+data/processed/**/*.pkl
+data/processed/**/*.keras
+data/processed/**/*.npz
+
+# Keep these processed CSVs for dashboard and API runtime
+!data/processed/ml_ready_data.csv
+!data/processed/tableau_customer_data.csv
+!data/processed/customer_features.csv
+!data/processed/segmentation/
+!data/processed/segmentation/segment_profiles.csv
+
+# Exclude temporary archives
+*.zip
+
+# Include the specific churn model required by the production API
+!data/processed/model_data/
+data/processed/model_data/*
+!data/processed/model_data/random_forest.pkl

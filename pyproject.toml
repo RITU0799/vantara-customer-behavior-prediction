@@ -1,0 +1,7 @@
+[tool.ruff]
+target-version = "py311"
+exclude = ["notebooks", ".venv", ".pytest-temp", ".pytest_cache", ".ruff_cache"]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E402", "E501"]

@@ -1,0 +1,18 @@
+Low Risk
+Customer ID: 17460.0
+Churn Probability: 14.94%
+Risk Level: Low
+Customer is classified as Low churn risk with a predicted churn probability of 14.94%. The main factors increasing churn risk are CLV increases predicted churn risk, Price_Sensitivity_Proxy increases predicted churn risk, Average_Basket_Size increases predicted churn risk. Factors reducing churn risk include Recency reduces predicted churn risk, Engagement_Score reduces predicted churn risk, RFM_Score reduces predicted churn risk.
+
+Borderline
+Customer ID: 13362.0
+Churn Probability: 50.03%
+Risk Level: Borderline
+Customer is classified as Borderline churn risk with a predicted churn probability of 50.03%. The main factors increasing churn risk are Recency_Score increases predicted churn risk, Recency increases predicted churn risk, Frequency increases predicted churn risk. Factors reducing churn risk include RFM_Score reduces predicted churn risk, Total_Quantity reduces predicted churn risk, Unique_Products reduces predicted churn risk.
+
+High Risk
+Customer ID: 17202.0
+Churn Probability: 85.00%
+Risk Level: High
+Customer is classified as High churn risk with a predicted churn probability of 85.00%. The main factors increasing churn risk are RFM_Score increases predicted churn risk, Recency increases predicted churn risk, Engagement_Score increases predicted churn risk. Factors reducing churn risk include Price_Sensitivity_Proxy reduces predicted churn risk, Product_Category_Affinity reduces predicted churn risk, Country_United Kingdom reduces predicted churn risk.
+

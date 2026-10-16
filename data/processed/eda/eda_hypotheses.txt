@@ -1,0 +1,36 @@
+
+Vantara Customer Intelligence Platform
+EDA Hypotheses for Modeling
+
+1. Customers with higher recency are more likely to churn.
+
+2. Customers with lower purchase frequency are more likely to churn.
+
+3. Customers with lower monetary value are more likely to churn.
+
+4. Customers with higher RFM scores are less likely to churn.
+
+5. Customers with higher engagement scores are less likely to churn.
+
+6. Customers purchasing a wider range of products are less likely
+   to churn.
+
+7. Customers with irregular purchase behavior may have different
+   churn patterns.
+
+8. Customers with highly seasonal purchasing behavior may show
+   different churn risk.
+
+9. Higher return rates may be associated with higher churn risk.
+
+10. Purchase frequency trend may provide additional churn signal
+    beyond static purchase frequency.
+
+11. Customer lifetime and historical spending patterns may provide
+    useful information for prioritizing high-value customers.
+
+12. Country and seasonal purchasing patterns may reveal meaningful
+    differences in customer behavior and revenue distribution.
+
+These hypotheses will be tested during the modeling stage using
+statistical analysis and machine learning models.
